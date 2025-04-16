@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projetos.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portifólio</title>
+</head>
+
+<body>
+    <!-- --------------- sidebar --------------- -->
+    <nav class="sidebar">
+        <div id="sidebar_content">
+            <div class="perfil_content">
+                <!-- --------------- perfil --------------- -->
+                <div class="perfil">
+                    <div class="name_perfil">Desenvolvedor back-end e front-end</div>
+                </div>
+            </div>
+            <!-- --------------- opções da sidebar --------------- -->
+            <ul class="nav_list">
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="link_name">Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Projetos">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="link_name">Projetos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Projeto1">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="link_name">appLivraria</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Projeto2">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="link_name">Lista de Tarefas</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- --------------- fim da sidebar --------------- -->
+
+    <!-- --------------- main --------------- -->
+    <main>
+        <button id="open_btn_menu">
+            <i id="open_btn_icon" class="fa-solid fa-bars"></i>
+        </button>
+        <!-- --------------- seção do inicio dos projetos --------------- -->
+        <div class="container" id="Projetos">
+            <div class="container_content">
+                <h1 class="title">Projetos</h1>
+                <div class="container_text">
+                    <p class="text">
+                        Esses são alguns dos projetos que desenvolvi, tanto em equipe quanto individualmente. Eles
+                        demonstram minha experiência e habilidades em programação
+                    </p>
+                    <p class="text">
+                        Estou sempre buscando aprender e aprimorar minhas habilidades, então fique à vontade para entrar
+                        em
+                        contato se você tiver alguma dúvida ou se quiser me dar alguma dica.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- --------------- seção do fim dos projetos --------------- -->
+        <!-- --------------- seção do appLivraria --------------- -->
+        <div class="container" id="Projeto1">
+            <div class="container_content">
+                <h1 class="title">appLivraria</h1>
+                <div class="container_text">
+                    <h2 class="Subtitle">Aplicativo de Gestão de Livraria para Desktop</h2>
+                    <div class="scroll">
+                        <p class="text_project">
+                            Este projeto envolve o desenvolvimento de um aplicativo de gestão de livraria para desktop,
+                            atualmente em fase de desenvolvimento. O design das telas foi criado utilizando o Adobe XD,
+                            proporcionando uma interface visualmente atraente e fácil de usar. O desenvolvimento do
+                            aplicativo está sendo realizado em Java, com o uso do JavaFX para a criação das telas
+                            interativas.
+                        </p>
+                        <p class="text_project">
+                            Para a comunicação com o banco de dados, estão sendo utilizados JDBC e JTDS, garantindo a
+                            eficiência nas requisições e manipulação de dados. O projeto segue o padrão de arquitetura
+                            MVC
+                            (Model-View-Controller), promovendo uma separação clara entre a lógica de negócios, a
+                            interface
+                            do usuário e o controle de fluxo.
+                        </p>
+
+                        <p class="text_project">O aplicativo possui sete telas principais:
+                        <ul class="text_project" id="text_list">
+                            <li><strong>Cliente</strong>: Gerenciamento de informações dos clientes.</li>
+                            <li><strong>Editora</strong>: Controle de dados das editoras parceiras.</li>
+                            <li><strong>Funcionário</strong>: Administração dos dados dos funcionários.</li>
+                            <li><strong>Home</strong>: Tela inicial com visão geral do sistema.</li>
+                            <li><strong>Login</strong>: Autenticação de usuários.</li>
+                            <li><strong>Livro</strong>: Gestão do estoque de livros.</li>
+                            <li><strong>Pedido</strong>: Controle de pedidos</li>
+                        </ul>
+                        </p>
+                        <p class="text_project">
+                            O aplicativo é desenvolvido em Java, utilizando o JavaFX para a interface gráfica. O banco
+                            de
+                            dados
+                            utilizado é o SQL Server, com acesso via JDBC e JTDS. O projeto segue o padrão MVC
+                            (Model-View-
+                            Controller), garantindo uma estrutura organizada e de fácil manutenção.
+                        </p>
+                        <p class="text_project">
+                            O projeto está em andamento e, assim que concluído, será disponibilizado no GitHub.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --------------- seção do fim do appLivraria --------------- -->
+        <!-- --------------- seção do appLista_Tarefas --------------- -->
+        <div class="container" id="Projeto2">
+            <div class="container_content">
+                <h1 class="title">appLista_Tarefas</h1>
+                <div class="container_text">
+                    <h2 class="Subtitle">Aplicação de Gestão de Tarefas</h2>
+                    <div class="scroll">
+                        <p class="text_project">
+                            Este projeto consiste no desenvolvimento de uma aplicação para gestão de tarefas, utilizando tecnologias frontend e backend. A aplicação é baseada em uma playlist do canal <a href="https://www.youtube.com/watch?v=GkaHfOliysc&list=PLXik_5Br-zO82XOqu4BNtxYYAQPXwn8p8" target="_blank" class="link_canal">João Ribeiro</a>, com o objetivo de aprender e aplicar conceitos de desenvolvimento web.
+                        </p>
+                        <p class="text_project">
+                            <strong>Tecnologias Utilizadas:</strong> HTML, CSS, JavaScript puro, Bootstrap no frontend; Node.js, Express, MySQL no backend.
+                        </p>
+                        <p class="text_project">
+                            <strong>Estrutura do Banco de Dados:</strong>
+                            <ul class="text_project" id="text_list">
+                                <li><strong>Tabela: users</strong></li>
+                                <ul>
+                                    <li>id</li>
+                                    <li>username</li>
+                                    <li>password</li>
+                                    <li>created_at</li>
+                                    <li>updated_at</li>
+                                </ul>
+                                <li><strong>Tabela: tasks</strong></li>
+                                <ul>
+                                    <li>id</li>
+                                    <li>id_user</li>
+                                    <li>task_text</li>
+                                    <li>task_status (new | in progress | canceled)</li>
+                                    <li>created_at</li>
+                                    <li>updated_at</li>
+                                </ul>
+                            </ul>
+                        </p>
+                        <p class="text_project">
+                            <strong>Tarefas que foram desenvolvidas no Projeto:</strong>
+                        </p>
+                        <ul class="text_project" id="text_list">
+                            <li><strong>Criar a Estrutura Inicial:</strong></li>
+                            <ul>
+                                <li>Configurar a base do frontend (HTML, CSS, JS, Bootstrap)</li>
+                                <li>Configurar a base do backend (Node.js, Express, MySQL) com uma resposta padrão</li>
+                            </ul>
+                            <li><strong>Frontend:</strong></li>
+                            <ul>
+                                <li>Desenvolver as páginas necessárias para a navegação no aplicativo</li>
+                                <li>Realizar pequenos testes de comunicação entre frontend e backend utilizando Ajax (XMLHttpRequest | Fetch API)</li>
+                            </ul>
+                            <li><strong>Estrutura Base de Cada Página:</strong></li>
+                            <ul>
+                                <li>Utilizar Bootstrap (tema Slate do Bootswatch)</li>
+                                <li>Integrar FontAwesome para ícones</li>
+                            </ul>
+                            <li><strong>Ver Tarefas:</strong></li>
+                            <ul>
+                                <li>Exibir título</li>
+                                <li>Implementar filtro para selecionar as tarefas a serem visualizadas (select)</li>
+                                <li>Adicionar botão para criar novas tarefas</li>
+                                <li>Exibir mensagem caso não existam tarefas</li>
+                                <li>Criar caixa para exibição das tarefas, com opções para alterar status, editar e excluir tarefas</li>
+                                <li>Exibir parágrafo com o total de tarefas disponíveis (de acordo com o filtro)</li>
+                            </ul>
+                            <li><strong>Adicionar Tarefa:</strong></li>
+                            <ul>
+                                <li>Campo de texto para inserir a descrição da tarefa</li>
+                                <li>Botão para cancelar</li>
+                                <li>Botão para submeter a nova tarefa</li>
+                            </ul>
+                            <li><strong>Editar Tarefa:</strong></li>
+                            <ul>
+                                <li>Campo de texto para editar a descrição da tarefa</li>
+                                <li>Botão para cancelar</li>
+                                <li>Botão para submeter a alteração</li>
+                            </ul>
+                            <li><strong>Excluir Tarefa:</strong></li>
+                            <ul>
+                                <li>Implementar exclusão de tarefas utilizando uma modal</li>
+                            </ul>
+                        </ul>
+                        <p class="text_project">
+                            Este projeto visa proporcionar uma experiência prática no desenvolvimento de uma aplicação completa, desde a criação da interface de usuário até a implementação do backend e integração com o banco de dados.
+                        </p>
+                        <p class="text_project">
+                            O projeto está em andamento e, assim que concluído, será disponibilizado no GitHub.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- --------------- seção do fim do appLista_Tarefas --------------- -->        
+        <!-- --------------- seção do fim dos projetos --------------- -->
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
